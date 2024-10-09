@@ -1,0 +1,211 @@
+*{
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    max-width: 1400px;
+    overflow-x: hidden;
+    font-family: "Montserrat", sans-serif;
+}
+.icon{
+    width: 15px;
+}
+#logo img{
+    width: 130px;
+    margin-right: 20px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.nav ul, .nav div:nth-child(2), .nav .locacion, .nav .cuenta{
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+.nav ul a{
+    height: 100%;
+}
+.nav ul li{
+    margin-left: 20px;
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    border-bottom: 5px solid transparent;
+}
+.nav ul li:hover{
+    color: #006241;
+}
+.locacion .tienda:hover{
+    color: #006241;
+    font-weight: 550;
+}
+#cabecera{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 100px;
+    padding: 0 40px;
+    position: relative;
+    box-shadow: rgba(128, 128, 128, 0.726) 1px 1px 3px;
+}
+
+.nav .locacion img{
+    padding-top: 5px;
+}
+.nav div:nth-child(2) div{
+    margin: 0 12px;
+}
+.nav .tienda{
+    color: black;
+    font-weight: 500;
+    margin-right: 30px;
+}
+
+.boton1, .boton2{
+    color: black;
+    padding: 5px 15px;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 15px;
+    font-variant: bold;
+}
+.boton1:hover{
+    color: #006241;
+    border-color: #006241;
+}
+.boton2:hover{
+    background-color: #006241;
+    border-color: #006241;
+    color: white;
+}
+
+.publicidad .publicidad1{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.publicidad .publicidad1 img{
+    width: 50vw;
+}
+
+.publicidad .publicidad-texto1{
+    text-align: center;
+    margin: 0 7%;
+}
+
+.publicidad-texto1 h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.publicidad-texto1 p{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+
+.publicidad .publicidad2{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.publicidad .publicidad2 img{
+    width: 50vw;
+}
+.publicidad .publicidad-texto2{
+    text-align: center;
+    margin: 0 7%;
+}
+.publicidad-texto2 h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.publicidad-texto2 p{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+footer{
+    margin-top: 30px;
+    box-shadow:inset rgba(128, 128, 128, 0.726) 0 1px 3px;
+}
+.pie-opciones{
+    padding: 30px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.521);
+    display: flex;
+    justify-content:space-around;
+}
+.pie-opciones div{
+    margin: 0 15px;
+}
+.pie-cabeza{
+    padding: 20px 0;
+}
+.pie-cabeza h3{
+    color: rgb(87, 87, 87);
+    font-size: 17px;
+    font-weight: 500;
+}
+.pie-opciones2{
+    padding: 40px 50px;
+    
+}
+.pie-opciones2 .redes{
+    margin-left: -5px;
+    
+}
+.pie-opciones2 .redes .icon{
+    width: 40px;
+    padding: 5px;
+    margin-bottom: 30px;
+    opacity: 0.9;
+    border-radius: 30%;
+}
+.pie-opciones2 .redes .icon:hover{
+    background-color: rgba(128, 128, 128, 0.281);
+}
+.pie-opciones2 .copyright{
+    margin-top: 20px;
+    color: rgba(0,0,0,0.466);
+}
+.pie-opciones2 .libro img{
+    width: 140px;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
